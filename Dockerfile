@@ -12,7 +12,7 @@ COPY go.mod .
 RUN go mod download
 
 COPY . .
-RUN CGO_ENABLED=0 GOOS=linux go build ./main -a -installsuffix cgo -o fish-game
+RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o fish-game ./main
 
 # RUN container
 FROM alpine:latest
