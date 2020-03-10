@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"fish/game/common"
+	"github.com/ruandao/dwg255-fish-game/common"
 	"github.com/astaxie/beego/logs"
 	_ "github.com/go-sql-driver/mysql"
 )

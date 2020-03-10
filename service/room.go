@@ -2,7 +2,7 @@ package service
 
 import (
 	"encoding/json"
-	"fish/common/tools"
+	"github.com/ruandao/dwg255-fish-common/tools"
 	"fmt"
 	"github.com/astaxie/beego/logs"
 	"sync"

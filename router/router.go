@@ -1,8 +1,8 @@
 package router
 
 import (
-	"fish/game/controllers"
-	"fish/game/service"
+	"github.com/ruandao/dwg255-fish-game/controllers"
+	"github.com/ruandao/dwg255-fish-game/service"
 	"net/http"
 )
 

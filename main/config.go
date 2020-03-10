@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fish/game/common"
+	"github.com/ruandao/dwg255-fish-game/common"
 	"fmt"
 	"github.com/astaxie/beego/config"
 )

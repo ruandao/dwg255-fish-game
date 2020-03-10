@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 	"encoding/json"
-	"fish/common/api/thrift/gen-go/rpc"
-	"fish/common/tools"
-	"fish/game/common"
+	"github.com/ruandao/dwg255-fish-common/api/thrift/gen-go/rpc"
+	"github.com/ruandao/dwg255-fish-common/tools"
+	"github.com/ruandao/dwg255-fish-game/common"
 	"fmt"
 	"github.com/astaxie/beego/logs"
 	"strconv"

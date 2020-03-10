@@ -2,9 +2,9 @@ package main
 
 import (
 	"crypto/md5"
-	"fish/game/common"
-	_ "fish/game/router"
-	"fish/game/service"
+	"github.com/ruandao/dwg255-fish-game/common"
+	_ "github.com/ruandao/dwg255-fish-game/router"
+	"github.com/ruandao/dwg255-fish-game/service"
 	"flag"
 	"fmt"
 	"github.com/astaxie/beego/logs"
