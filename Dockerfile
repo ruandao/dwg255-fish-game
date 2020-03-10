@@ -22,5 +22,6 @@ RUN apk --no-cache add ca-certificates
 RUN mkdir /app
 WORKDIR /app
 COPY --from=builder /app/fish-game .
+COPY --from=builder /app/start.sh .
 
-CMD ["./fish-game"]
+CMD ["sh", "./start.sh"]

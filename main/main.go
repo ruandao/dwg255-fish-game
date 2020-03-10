@@ -66,6 +66,13 @@ func main() {
 				Url.RawQuery = params.Encode()
 				urlPath := Url.String()
 				resp, err := http.Get(urlPath)
+				if err != nil {
+					errContent := fmt.Sprintf("get urlPath: %v with err: %v", urlPath, err)
+					fmt.Println(errContent)
+					logs.Error("get urlPath: %v with err: %v", urlPath, err)
+					panic(errContent)
+				}
+
 				s, err := ioutil.ReadAll(resp.Body)
 				if string(s) != "success" {
 					logs.Info("register game server response:", string(s))
